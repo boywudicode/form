@@ -5,25 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Form</title>
 </head>
 <body>
     
  <form action="">
-    <h2 class="lb-color">SIGN UP FORM</h2>
-    <label for="" class="pswd">First Name</label>
+    <h2 class="lb-color"><i class="fa fa-user-plus fa-3x" aria-hidden="true"></i>  SIGN UP FORM</h2>
+    <label for="">First Name</label>
     <input type="text" name="" id=""required placeholder="First Name">
-    <label for="" class="pswd">Last name </label>
+    <label for="">Last name </label>
     <input type="text" name="" id=""required placeholder="Last Name">
-    <label for="" class="pswd">Enter your Email</label>
+    <label for="">Enter your Email</label>
     <input type="email" name="" id=""required placeholder="Enter your Email">
+    <label for="">Gender</label>
+    <input type="radio" name="Gender" id="" class="input-radio">Male
+    <input type="radio" name="Gender" id="" class="input-radio">Female
+    <input type="radio" name="Gender" id=""  class="input-radio">Others
+    
+    <fieldset>
+        <legend>
+            Select your courses
+        </legend>
+        <input type="checkbox" name="Course" class="input-radio">Front End
+        <input type="checkbox" name="Course" class="input-radio">Back End
+        <input type="checkbox" name="Course" class="input-radio">Data Analytic
+        <input type="checkbox" name="Course" class="input-radio">UI UX Design
+    </fieldset>
     <label for="" class="pswd">Password</label>
 <input type="password" name="" id=""required placeholder="Enter your password">
 <br>
 <input type="button" value="REGISTER">
 <button>
-    SIGN UP
-    <img src="../image/Play button.png" alt="" width="40px" height="20px">
+    SIGN UP  <i class="fa fa-paper-plane" aria-hidden="true"></i>
+    <!-- <img src="../img-1.png" alt="" width="20px" height="10px"> -->
 </button>
  </form>   
 </body>
